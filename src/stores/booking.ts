@@ -29,7 +29,8 @@ export const useBookingStore = defineStore("booking", () => {
       id: "mars-1",
       name: "Mars Station Alpha",
       description: "Experience the red planet in our state-of-the-art facility",
-      imageUrl: "/images/mars-station.jpg",
+      imageUrl:
+        "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=1200&auto=format&fit=crop",
       basePrice: 250000,
       travelTime: "8 months",
       gravity: 0.38,
@@ -39,7 +40,8 @@ export const useBookingStore = defineStore("booking", () => {
       id: "moon-1",
       name: "Lunar Resort",
       description: "Luxury accommodations with Earth views",
-      imageUrl: "/images/lunar-resort.jpg",
+      imageUrl:
+        "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?q=80&w=1200&auto=format&fit=crop",
       basePrice: 150000,
       travelTime: "3 days",
       gravity: 0.16,
@@ -49,7 +51,8 @@ export const useBookingStore = defineStore("booking", () => {
       id: "titan-1",
       name: "Titan Research Base",
       description: "Adventure awaits on Saturn's largest moon",
-      imageUrl: "/images/titan-base.jpg",
+      imageUrl:
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop",
       basePrice: 500000,
       travelTime: "7 years",
       gravity: 0.14,
